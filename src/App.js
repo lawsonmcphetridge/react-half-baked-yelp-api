@@ -21,6 +21,7 @@ function App() {
   }, []);
 
   // TODO -- add event for button click to handle calling fetchBusinesses with zip / search
+  //added secret
   const handleClick = async () => {
     setLoading(true);
     const data = await fetchBusinesses(zip, search);
